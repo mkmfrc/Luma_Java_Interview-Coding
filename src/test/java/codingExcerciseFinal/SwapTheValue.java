@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class SwapTheValue {
 
-	@Test
+	// @Test
 	void swapValue() {
 
 		// i need to declare two separate variable x and y and pass my value there
@@ -20,4 +20,21 @@ public class SwapTheValue {
 					// thats how i swap the value
 	}
 
+	//@Test
+	void swapString() {
+
+		String first = "Good ";
+		String second = "morning ";
+		
+		System.out.println("Strings before swapping: " + first + " " + second);
+
+		first = first + second;
+
+		second = first.substring(0, (first.length() - second.length()));
+
+		first = first.substring(second.length());
+
+		System.out.println("Strings after swapping: " + first + " " + second);
+	}
+	
 }
