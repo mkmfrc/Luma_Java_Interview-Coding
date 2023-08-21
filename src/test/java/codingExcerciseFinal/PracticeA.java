@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PracticeA {
 
-	//@Test
+	@Test
 	void swapValue() {
 		
 		// i need to declare two separate variable x and y and pass my value there
@@ -23,6 +23,13 @@ public class PracticeA {
 	void breakLoop() {
 		
 		int value = 10;
+		
+		for (int i=0; i<value; i++) {
+			if(i==5) {
+				break;
+				
+			}
+		}
 		
 		for(int i = 0; i<value; i++) {
 			if(i==5){

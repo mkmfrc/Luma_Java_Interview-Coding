@@ -16,4 +16,11 @@ public class MaxAndMinValue {
 		int minValue = Collections.min(value);
 		System.out.println(minValue);
 	}
+
+	
+	
+	
+	public void practice() {
+		
+	}
 }

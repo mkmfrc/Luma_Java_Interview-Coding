@@ -12,6 +12,16 @@ public class SecondHighestNumber {
 		// 1. I am declaring an Array
 		int[] num = { 100, 600, 850, 786, 911, 4444, 200, 311 };
 
+		int size = num.length;
+		
+		Arrays.sort(num);
+		
+		int sec = num[size - 2];
+		
+		System.out.println("Second Highest Number : " + sec);
+		
+		
+		/*
 		// 2. With the help of Array Object I am calling the Length
 		// And storing into a int variable
 		int size = num.length;
@@ -24,7 +34,7 @@ public class SecondHighestNumber {
 		// With the help of variable I pass the argument length of value
 		int secondHighest = num[size - 2];
 		System.out.println("Second Highest Number : " + secondHighest);
-
+*/
 	}
 
 }

@@ -23,7 +23,12 @@ public class ScrollDownScrollUp {
 		 //js.executeScript("arguments[0].scrollIntoView();", ele);
 		 //js.executeScript("window.scrollBy(0,1500)");
 		 
+		//1. First creating an Actions class object and pass the driver as parameter
 		 Actions ac = new Actions(driver);
+		 
+		 //Using the object i can call sendKeys() method
+		 //and in parameter i can pass Keys.PAGE_DOWN to perform required action 
+		 
 		 ac.sendKeys(Keys.PAGE_DOWN).build().perform();
 		 
 	}

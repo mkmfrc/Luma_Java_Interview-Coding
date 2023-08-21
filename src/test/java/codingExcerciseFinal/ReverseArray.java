@@ -21,4 +21,8 @@ public class ReverseArray {
 		Collections.reverse(Arrays.asList(num));
 		System.out.println(" After Reverse Array Value : " + Arrays.toString(num));
 	}
+	
+	void practice() {
+
+	}
 }

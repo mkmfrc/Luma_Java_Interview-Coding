@@ -2,6 +2,7 @@ package codingExcerciseFinal;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class MergeArrays {
 	// Question 2: How to merge two arrays?

@@ -28,15 +28,15 @@ public class MultipleWindowHandle {
 		
 		
         //1st i can take a control main window with the help 
-		//driver.getWindowHandle(); method and store in string variable
+		//driver.getWindowHandle()method and store in string variable
 		String mainWindow = driver.getWindowHandle();
 
 		// 2nd i can take a control all of the child window with help of 
-		//driver.getWindowHandles();method and store in to the set interface instance 
+		//driver.getWindowHandles()method and store in to the set interface instance 
 		Set<String> childWindow = driver.getWindowHandles();
 
 		
-		// 3rd With the help set instance i can call iterator(); method to go through
+		// 3rd With the help set instance i can call iterator() method to go through
 		// all child window and store in to Iterator instance
 		Iterator<String> it = childWindow.iterator();
 

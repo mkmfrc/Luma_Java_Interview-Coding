@@ -15,4 +15,12 @@ public class SplitOrBreakSentence {
 			System.out.println(newValue);
 		}
 	}
+	
+	void practice(){
+		
+	
+		
+	}
+	
+	
 }

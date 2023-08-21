@@ -15,4 +15,12 @@ public class RemoveDuplicateValue {
 		List<Integer> newDup = removeDup.stream().distinct().collect(Collectors.toList());
 		System.out.println("Duplicate Value is : " + newDup);
 	}
+
+	
+	
+	void practice() {
+
+
+	}
+
 }

@@ -19,6 +19,10 @@ public class ReverseStringWithoutPreDefMehtod {
 		}
 	}
 	
+	void practice() {
+
+	}
+	
 	/*
 	//OtherWay to reverse the string using predefined method
 	//Declaring StringBuilder i am creating an object and passing the string varibale

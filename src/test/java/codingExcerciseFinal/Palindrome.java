@@ -36,4 +36,6 @@ public class Palindrome {
 		} 	// If the condition matches if will execute otherwise, else will be executed.
 	}
 
-}
+	
+	
+	}

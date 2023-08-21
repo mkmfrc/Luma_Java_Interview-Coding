@@ -19,4 +19,8 @@ public class DuplicateValue {
 			}
 		}
 	}
+	
+	public void practice() {
+
+	}
 }

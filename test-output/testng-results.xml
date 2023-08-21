@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-10T03:14:03Z" name="Default suite" finished-at="2023-08-10T03:14:03Z" duration-ms="186">
+  <suite started-at="2023-08-19T21:04:53Z" name="Default suite" finished-at="2023-08-19T21:04:53Z" duration-ms="46">
     <groups>
     </groups>
-    <test started-at="2023-08-10T03:14:03Z" name="Default test" finished-at="2023-08-10T03:14:03Z" duration-ms="186">
-      <class name="codingExcerciseFinal.SwapTheValue">
-        <test-method signature="heap()[pri:0, instance:codingExcerciseFinal.SwapTheValue@74bf1791]" started-at="2023-08-10T03:14:03Z" name="heap" finished-at="2023-08-10T03:14:03Z" duration-ms="39" status="PASS">
+    <test started-at="2023-08-19T21:04:53Z" name="Default test" finished-at="2023-08-19T21:04:53Z" duration-ms="46">
+      <class name="codingExcerciseFinal.OccuringString">
+        <test-method signature="occuringString()[pri:0, instance:codingExcerciseFinal.OccuringString@54504ecd]" started-at="2023-08-19T21:04:53Z" name="occuringString" finished-at="2023-08-19T21:04:53Z" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- heap -->
-        <test-method signature="swap()[pri:0, instance:codingExcerciseFinal.SwapTheValue@74bf1791]" started-at="2023-08-10T03:14:03Z" name="swap" finished-at="2023-08-10T03:14:03Z" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- swap -->
-      </class> <!-- codingExcerciseFinal.SwapTheValue -->
+        </test-method> <!-- occuringString -->
+      </class> <!-- codingExcerciseFinal.OccuringString -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

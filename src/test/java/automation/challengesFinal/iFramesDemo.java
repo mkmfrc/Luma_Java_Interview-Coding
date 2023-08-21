@@ -15,7 +15,14 @@ public class iFramesDemo {
 		driver.get("https://www.softwaretestinghelp.com/");
 
 		driver.get("http://www.dwuser.com/education/content/the-magical-iframe-tag-an-introduction/");
+		
+		
+		//To handle the frame i have to use driver.switchTo().frame() method
+		//and on the frame() parameter im locating the exact frame using xpath
 		driver.switchTo().frame(driver.findElement(By.xpath("//div[@id='eduFooterWrap']//iframe[1]")));
+		
+		//This is how i can skip the frame and locate my desired element.
+		 
 		driver.findElement(By.xpath("//input[@name='name']")).sendKeys("SoftwareTestingHelp.com");
 	}
 
